@@ -31,13 +31,27 @@ header {
 .weather-temp-container {
   display: flex;
 }
+.weather-temp {
+  font-size: 80px;
+  font-weight: bold;
+}
 
+.weather-icon {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.weather-unit {
+  font-size: 28px;
+  margin-top: 20px;
+}
 a {
   color: #3f3d41;
 }
 
 main {
-  padding: 30px;
+  padding: 20px;
 }
 .weather-app {
   background-color: #ffffff;
